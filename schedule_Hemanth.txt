@@ -1,0 +1,10 @@
+
+
+#projectstart
+
+Tasks (hrs)
+
+Providing the visualization of the occurrences of genes in each of the cancer classes (4)
+I need to have an option to save the clinical text column at a time when provided the gene-variation and specific id (4)
+Generate a body visualization showing different parts where cancer occurs and each showing the maximum occurance of a particular gene such as DOCK4 gene for breast cancer (8)
+
