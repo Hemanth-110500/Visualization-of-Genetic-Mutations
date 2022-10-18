@@ -1,0 +1,7 @@
+# Project Start
+
+Tasks (Hours)
+Making the list of top 30 genes available which are high in the occurrence of all the classes of cancer through graphical user interface. (5 hrs)
+Listing out the top 5 gene occurrences for each of the cancer class. (3 hrs)
+I need to have an option to save the clinical text column at a time when provided the gene-variation and specific id. (3 hrs)
+Taking the top sentences in the text column separately and comparing it in each of the cancer classes to analyze the more accurate text data. (5 hrs)
