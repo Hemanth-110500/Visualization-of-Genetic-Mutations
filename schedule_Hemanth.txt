@@ -4,7 +4,6 @@
 
 Tasks (hrs)
 
-Providing the visualization of the occurrences of genes in each of the cancer classes (6)
-I need to have an option to save the clinical text column at a time when provided the gene-variation and specific id (4)
-Generate a body visualization showing different parts where cancer occurs and each showing the maximum occurance of a particular gene such as DOCK4 gene for breast cancer (9)
-
+Integrating the percentage of genes and list of variants to the body visualization which is created. (7)
+I need to have an option to save the clinical text column at a time when provided the gene-variation and specific id. (4)
+Generate a body visualization showing different percentage of genes associated with it along with the list of variants. (8)
