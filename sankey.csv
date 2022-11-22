@@ -1,0 +1,100 @@
+source,target,value
+BRCA1,Intestine,264
+BRCA1,Liver,264
+BRCA1,Brain,264
+BRCA1,Stomach,264
+BRCA1,Lungs,264
+TP53,Liver,163
+TP53,Brain,163
+TP53,Intestine,163
+TP53,Throat,163
+TP53,Stomach,163
+TP53,Lungs,163
+TP53,Skin,163
+EGFR,Oral Cavity,141
+EGFR,Throat,141
+EGFR,Stomach,141
+EGFR,Liver,141
+EGFR,Intestine,141
+EGFR,Lungs,141
+EGFR,Bladder,141
+EGFR,Brain,141
+PTEN,Liver,126
+PTEN,Lungs,126
+PTEN,Brain,126
+PTEN,Oral Cavity,126
+PTEN,Stomach,126
+BRCA2,Intestine,125
+BRCA2,Brain,125
+BRCA2,Stomach,125
+BRCA2,Liver,125
+KIT,Throat,99
+KIT,Oral Cavity,99
+KIT,Lungs,99
+KIT,Intestine,99
+KIT,Liver,99
+BRAF,Oral Cavity,93
+BRAF,Intestine,93
+BRAF,Liver,93
+BRAF,Throat,93
+BRAF,Stomach,93
+BRAF,Lungs,93
+ALK,Oral Cavity,69
+ALK,Stomach,69
+ALK,Throat,69
+ALK,Lungs,69
+ERBB2,Intestine,69
+ERBB2,Stomach,69
+ERBB2,Throat,69
+ERBB2,Oral Cavity,69
+ERBB2,Liver,69
+ERBB2,Brain,69
+ERBB2,Bladder,69
+PDGFRA,Oral Cavity,60
+PDGFRA,Throat,60
+PDGFRA,Stomach,60
+PDGFRA,Lungs,60
+PDGFRA,Brain,60
+PDGFRA,Liver,60
+PIK3CA,Oral Cavity,56
+PIK3CA,Stomach,56
+PIK3CA,Throat,56
+PIK3CA,Intestine,56
+CDKN2A,Liver,52
+CDKN2A,Brain,52
+CDKN2A,Intestine,52
+FGFR2,Brain,50
+FGFR2,Oral Cavity,50
+FGFR2,Throat,50
+FGFR2,Stomach,50
+FGFR2,Intestine,50
+FLT3,Oral Cavity,49
+FLT3,Lungs,49
+FLT3,Throat,49
+FLT3,Brain,49
+TSC2,Brain,47
+TSC2,Liver,47
+TSC2,Oral Cavity,47
+MTOR,Oral Cavity,45
+MTOR,Lungs,45
+MTOR,Throat,45
+MTOR,Stomach,45
+KRAS,Throat,44
+KRAS,Oral Cavity,44
+KRAS,Intestine,44
+KRAS,Stomach,44
+KRAS,Lungs,44
+MAP2K1,Throat,43
+MAP2K1,Intestine,43
+MAP2K1,Oral Cavity,43
+MAP2K1,Stomach,43
+MAP2K1,Liver,43
+VHL,Liver,41
+VHL,Brain,41
+VHL,Intestine,41
+VHL,Stomach,41
+RET,Oral Cavity,40
+RET,Stomach,40
+RET,Throat,40
+RET,Liver,40
+RET,Brain,40
