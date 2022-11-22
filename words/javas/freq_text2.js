@@ -4,12 +4,12 @@ function main() {
         width = svg.attr("width") - margin,
         height = svg.attr("height") - margin;
 
-    svg.append("text")
-       .attr("transform", "translate(100,0)")
-       .attr("x", 50)
-       .attr("y", 50)
-       .attr("font-size", "24px")
-       .text("Frequency of clinical words for a class")
+	svg.append("text")
+		.attr("transform", "translate(100,0)")
+		.attr("x", 100)
+		.attr("y", 50)
+		.style("font-size", "24px")
+		.text("Frequency of clinical words in a class")
 
     var xScale = d3.scaleBand().range([0, width]).paddingInner(0.4),
         yScale = d3.scaleLinear().range([height, 0]);
