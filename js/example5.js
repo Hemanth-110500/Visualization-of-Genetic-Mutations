@@ -9,7 +9,7 @@ function main() {
        .attr("x", 50)
        .attr("y", 50)
        .attr("font-size", "24px")
-       .text("Frequency of Genes")
+       .text("Gene count and list of Variants")
 
     var xScale = d3.scaleBand().range([0, width]).paddingInner(0.4),
         yScale = d3.scaleLinear().range([height, 0]);
@@ -17,7 +17,7 @@ function main() {
     var g = svg.append("g")
             .attr("transform", "translate(" + 100 + "," + 100 + ")");
 
-    d3.csv("csv/Class5_1.csv").then( function(data) {
+    d3.csv("csv/Class_5.csv").then( function(data) {
         xScale.domain(data.map(function(d) { return d.Gene; }));
         yScale.domain([0, d3.max(data, function(d) { return d.Count*1; })]);
 
@@ -71,9 +71,11 @@ function main() {
 
 		// Update Tooltip's position and value
 		d3.select('#tooltip')
-			.style('left', xPos + 'px')
-			.style('top', yPos + 'px')
-            .select('#name').text(i.Gene+" "+i.Count)
+			.style('left', 170 + 'px')
+			.style('top', 150 + 'px')
+            .html(`<span><b>Gene Name: </b>`+i.Gene+`</span><br/>
+			<span><b>Genes Count: </b>` + i.Count + `</span><br/>
+			<span><b>Variation List: </b>` + i.Variation + `</span>`)
 		
 		d3.select('#tooltip').classed('hidden', false);
 
