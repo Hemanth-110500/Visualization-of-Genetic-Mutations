@@ -1,8 +1,8 @@
 .bar{
-	fill: rgb(67, 0, 115);
+	fill: rgb(178, 159, 255);
 }
 .highlight{
-	fill:rgb(255, 244, 34)
+	fill:rgb(61, 0, 174)
 }
 #tooltip.hidden{
 	display: none;
@@ -18,7 +18,7 @@
 	height: auto;
 	position: absolute;
 	padding: 10px;
-	background-color: rgb(225, 255, 210);
+	background-color: rgb(215, 199, 255);
 	box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
 	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
 	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
